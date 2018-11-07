@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesNotePad.css">
+
+  <title></title>
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <h1>Hi Cleo!</h1>
+    </div>
+  </header>
+  <br>
+  <br>
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Add Note</h4>
+      </div>
+      <div class="col">
+        <input id="newNotes" type="text" placeholder="Enter Note">
+      </div>  
+      <div class="col">
+        <input type="button" value="Add" onclick="addNote()">
+        <input type="button" value="SORT" onclick="sortNote()"> 
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col">
+        <h4 id="quantityDisplay">Quantity: 0</h4>
+      </div>  
+     </div>
+  </section>
+    
+    <hr/>
+    <br>
+
+<section class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Current Clients</h4>
+      </div>
+      <div class="col">
+        <input id="currentClients" type="text" placeholder="Enter Current Client">
+      </div>  
+      <div class="col">
+        <input type="button" value="Add" onclick="addCurrentClients()" >
+        <input type="button" value="SORT" onclick="sortCurrentClients()">
+      </div>
+      </div>  
+
+      <div class="row">
+      <div class="col">
+        <h4 id="quantityDisplay">Quantity: 0</h4>
+      </div>  
+     </div>
+  </section>
+  <hr/>
+  <br>
+<section class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Potential Clients</h4>
+      </div>
+      <div class="col">
+        <input id="potentialClients" type="text" placeholder="Enter Potential Client">
+      </div>  
+      <div class="col">
+        <input type="button" value="Add" onclick="potentialClients()">
+        <input type="button" value="SORT" onclick="sortPotentialClients()">
+      </div>
+    </div>
+
+    <div class="=row">
+      <div id="NotesDisplay" class=col></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h4 id="quantityDisplay">Quantity: 0</h4>
+      </div>
+    </div>
+    <div class="=row">
+    <div id="NotesDisplay" class=col</div>
+    </div>
+    </div> 
+</section>
+     <script src="script.js"></script>
+    
+</body>
+</html>
