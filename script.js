@@ -1,4 +1,11 @@
 
+//SENDING FIRST CHANGES TO GITHUB.....
+
+let fish = "first try at changing final project";
+//SENDING FIRST CHANGES TO GITHUB.....
+
+
+
 let Notes = [];
 
 function addNote() {
